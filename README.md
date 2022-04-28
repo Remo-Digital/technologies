@@ -30,7 +30,9 @@ You should have all of these tools (and TypeScript) set up, and running in the p
 
 ## Data Fetching
 - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) - the native browser implementation is good enough for most of the use cases. It's native to the browser, so there's nothing to install, and it's quite well documented in the provided link.
+- [SWR](https://swr.vercel.app/) - if you need client side fetching, and use a REST API.
 
 ## GraphQL
 - [URQL](https://formidable.com/open-source/urql/) - GraphQL client which is small and easy to use. [Short tutorial video](https://www.youtube.com/watch?v=Miock1yWkCQ) on how to set it up with next.
 - [graphql-code-generator](https://www.graphql-code-generator.com/) - So you can generate typescript types from your graphql endpoint. Don't forget to set the `maybeValue: T` in your `codegen.yml`, [like here](https://github.com/dotansimha/graphql-code-generator/issues/3919#issuecomment-618595537). Otherwise you'll rip your hair out with the typing.
+- ~Apollo Client~ - Just use URQL instead.
