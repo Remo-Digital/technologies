@@ -35,4 +35,11 @@ You should have all of these tools (and TypeScript) set up, and running in the p
 ## GraphQL
 - [URQL](https://formidable.com/open-source/urql/) - GraphQL client which is small and easy to use. [Short tutorial video](https://www.youtube.com/watch?v=Miock1yWkCQ) on how to set it up with next.
 - [graphql-code-generator](https://www.graphql-code-generator.com/) - So you can generate typescript types from your graphql endpoint. Don't forget to set the `maybeValue: T` in your `codegen.yml`, [like here](https://github.com/dotansimha/graphql-code-generator/issues/3919#issuecomment-618595537). Otherwise you'll rip your hair out with the typing.
-- ~Apollo Client~ - Just use URQL instead.
+- ~Apollo Client~ - **Just use URQL instead.** It has all the featres, and more, and is smaller in size.
+
+## Carousel/Slider
+Before implementing one, please take a look at the following presentation: https://shouldiuseacarousel.com/
+A good alternative might be a fade-out/fade-in effect. You can achieve this with [HeadlessUI Transitions](https://headlessui.dev/react/transition)
+
+If you the client is really really insistant on having a carousel, and must have it:
+- [react-multi-carousel](https://react-multi-carousel.vercel.app/) 
