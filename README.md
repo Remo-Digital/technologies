@@ -38,8 +38,10 @@ You should have all of these tools (and TypeScript) set up, and running in the p
 - ~Apollo Client~ - **Just use URQL instead.** It has all the featres, and more, and is smaller in size.
 
 ## Carousel/Slider
-Before implementing one, please take a look at the following presentation: https://shouldiuseacarousel.com/
-A good alternative might be a fade-out/fade-in effect. You can achieve this with [HeadlessUI Transitions](https://headlessui.dev/react/transition)
+
+### Please try to avoid them.
+
+Or at least, before implementing one, please take a look at the following presentation: [Should I Use A Carousel?](https://shouldiuseacarousel.com/)
 
 If you the client is really really insistant on having a carousel, and must have it:
 - [react-multi-carousel](https://react-multi-carousel.vercel.app/)
