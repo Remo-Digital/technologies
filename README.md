@@ -43,6 +43,7 @@ A good alternative might be a fade-out/fade-in effect. You can achieve this with
 
 If you the client is really really insistant on having a carousel, and must have it:
 - [react-multi-carousel](https://react-multi-carousel.vercel.app/)
+  
   **Possible bugs:**
   - If the carousel doesn't render for some reason, try wrapping it in a `div` and giving it a height and width of a 100%.
 
