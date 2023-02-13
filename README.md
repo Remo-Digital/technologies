@@ -45,6 +45,9 @@ NextJS has too many benefits to count, but the key selling point is that it make
 
 We heavily rely and recommend these libraries. They are simple to use, look very good out-of-the-box, and are very customizable, if needed.
 
+## Form Handling
+- [React Hook Form](https://react-hook-form.com/) - makes handling forms, form states and form validations so much easier. 
+
 ## Code linters
 - [Prettier](https://prettier.io/) - for code linting.
 - [Husky](https://www.npmjs.com/package/husky) - Easy-to-use git hooks. So we can execute the linting process when you commit soemthing.
