@@ -11,13 +11,13 @@ Please do not nest create/nest more folders in the `components` folder.
 
 ## Abstraction
 
-Abstract things reactively, instead of proactively.
+**Abstract things reactively, instead of proactively.**
 
-Abstraction adds another layer of complexity with your code, and makes the codebase harder to understand so we should be VERY careful when and how we do it. If you do not have a clear reason to abstract something DO NOT DO IT.
+Abstraction adds another layer of complexity with your code, and makes the codebase harder to understand so we should be VERY careful when and how we do it. If you do not have a clear reason to abstract something **DO NOT DO IT**.
 
 As a rule of thumb, do not abstract anything in your initial implementation of a feature. Only afterwards, if it makes sense, and you can justify it.
 
-Just moving things around, and "it's a code smell" are not valid reasons for abstraction.
+**Just moving things around in new components, and "it's a code smell" are not valid reasons for abstraction.**
 
 ## Comments
 
