@@ -66,6 +66,12 @@ You should have all of these tools (and TypeScript) set up, and running in the p
 - [graphql-code-generator](https://www.graphql-code-generator.com/) - So you can generate typescript types from your graphql endpoint. Don't forget to set the `maybeValue: T` in your `codegen.yml`, [like here](https://github.com/dotansimha/graphql-code-generator/issues/3919#issuecomment-618595537). Otherwise you'll rip your hair out with the typing.
 - ~Apollo Client~ - **Just use URQL instead.** It has all the featres, and more, and is smaller in size.
 
+## Handling multilanguage content/translations/i18n.
+- [next-i18next](https://github.com/i18next/next-i18next) - A translation library for NextJS, which references local JSON files for translation. Prefer using this instead of loading the translations through an API call, because the translations are lodade locally, which is faster and has a smaller footprint than making an API call to get all the translations from something like Storyblok Datasources.
+
+  **Possible bugs:**
+  - **If you are deploying to Vercel**, and the translations won't load, or only partially load, consider setting the `localePath` variable in the `next-i18next.config.js` file, like [outlined in the github docs](https://github.com/i18next/next-i18next#vercel-and-netlify).
+
 ## Carousel/Slider
 
 ### Please try to avoid them.
