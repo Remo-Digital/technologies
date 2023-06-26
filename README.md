@@ -84,3 +84,10 @@ If you the client is really really insistant on having a carousel, and must have
   **Possible bugs:**
   - If the carousel doesn't render for some reason, try wrapping it in a `div` and giving it a height and width of a 100%.
 
+## Cookie Banner
+We have a [custom implementation of the cookie banner on the SailClass](https://github.com/Remo-Digital/SailClass-pwa/blob/develop/components/CookieBotBanner.tsx) project.
+
+You can copy-paste the component, and change the implementation to what you require on your project.
+
+We're not creating a separate library for it, because it needs to be customizable completely, depending on the project style/cookiename/cookie value/what you do based on the cookie value set.
+You can find a more detailed explanation in the comments of the component, but basically this component just uses the [js-cookie library](https://www.npmjs.com/package/js-cookie) to get/set the cookie in your browser.
