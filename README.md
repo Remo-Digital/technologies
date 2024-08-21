@@ -46,7 +46,8 @@ NextJS has too many benefits to count, but the key selling point is that it make
 We heavily rely and recommend these libraries. They are simple to use, look very good out-of-the-box, and are very customizable, if needed.
 
 ## Form Handling
-- [React Hook Form](https://react-hook-form.com/) - makes handling forms, form states and form validations so much easier. 
+- [React Hook Form](https://react-hook-form.com/) - makes handling forms, form states and form validations so much easier.
+- [Form IO](https://form.io/) - stores and sends form submits via e-mail.
 
 ## Code linters
 - [Prettier](https://prettier.io/) - for code linting.
